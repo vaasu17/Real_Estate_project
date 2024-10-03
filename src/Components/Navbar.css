@@ -1,0 +1,66 @@
+/* Navbar.css */
+nav {
+    font-family: 'Poppins', sans-serif; /* Ensure the font family is set */
+    position: relative;
+    z-index: 30;
+    padding: 1.25rem 0; /* 20px vertical padding */
+    background-color: #c99f30;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  nav img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  nav ul {
+    display: none; /* Initially hidden */
+    height: 100%;
+    gap: 3rem; /* 48px */
+  }
+  
+  nav ul.lg-flex {
+    display: flex; /* Display flex on large screens */
+  }
+  
+  nav ul li {
+    list-style: none; /* Remove default list styles */
+  }
+  
+  nav ul li a {
+    font-size: 16px; /* Font size for nav links */
+    color: #191965; /* Text color */
+    display: flex;
+    align-items: center; /* Center items */
+    cursor: pointer;
+    padding-bottom: 0.375rem; /* 6px */
+    transition: font-weight 0.3s ease; /* Smooth transition for font weight */
+  }
+  
+  nav ul li a:hover {
+    font-weight: bold; /* Bold on hover */
+  }
+  
+  .contact-button {
+    display: none; /* Initially hidden */
+  }
+  
+  .contact-button.lg-flex {
+    display: flex; /* Show on large screens */
+    align-items: center; /* Center items */
+  }
+  
+  .dropdown-wrapper {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .dropdown-wrapper img {
+    width: 32px;
+    height: 22px;
+  }
+  
+
+  
